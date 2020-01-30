@@ -1,5 +1,5 @@
 # web-nyu-idm
 
-## This is my code for Intro to Web Development at NYU IDM taught by Melanie Hoff
+## This is my code for my class "Intro to Web Development" taught by Melanie Hoff at NYU IDM
 
-I like to make tik toks, my tik tok handle is @idontcarolineeeee
+I like to make tik toks, my tik tok handle is @idontcarolineeeee 
