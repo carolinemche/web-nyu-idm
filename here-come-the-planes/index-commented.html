@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<!-- The head tag contains information that is not actually seen on the web page
+it can include things like the title of the site,fonts, and links to style fonts -->
+
+<head>
+
+<!-- the link href tag links to an external source that is utilized in the webpagge -->
+<!-- links to external fonts, google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo|Bowlby+One+SC|Sigmar+One&display=swap" rel="stylesheet">
+<!-- links to external style sheet from w3 schools-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--title tag shows text on the tab -->
+  <title>Caroline's site</title>
+
+  <!-- the style tag helps control what the elements should look like-->
+  <style>
+    /* CSS goes here */
+
+    /* everything under the body class defines the entire page*/
+    body {
+      /* the background is only defined here since the entire page will contain only this style */
+      background: rgb(63, 94, 251);
+      background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(70, 191, 252, 1) 100%);
+    }
+
+/* line 1 class defines how any div with l1 looks  */
+    .line1 {
+     /* how the text is aligned, center*/
+      text-align: center;
+      /* font size sets the size of font, em is a scalable unit, 1
+      em is equal to the current font size */
+      font-size: 4em;
+      /* font-family sets the font */
+      font-family: 'Sigmar One', cursive;
+      /* color sets the font color*/
+      color: #FFFFFF;
+      /* shadow for the text, values made with generator: https://html-css-js.com/css/generator/text-shadow/  */
+      text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    }
+
+ /* defines the style with anything that has the a class */
+    a {
+      /*position defines the position of an object */
+      position: relative;
+      text-align: center;
+      /* creates a background image that is a rainbow gradient  */
+      background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+      /*allows for text "color" to be the background*/
+      -webkit-background-clip: text;
+      /*text color is set to transparent  */
+      color: transparent;
+      font-size: 8em;
+      /*controls the spacing of the letters*/
+      letter-spacing: 4px;
+      background-repeat: no-repeat;
+      background-size: 80%;
+      /*allows for an animation to occur, calls the rainbowMove class, 2s is speed,
+      and linear is the direction */
+      animation: rainbowMove 2s linear infinite;
+    }
+
+
+
+/* shining text code: https://codepen.io/FrankieDoodie/pen/dgVGad */
+    @keyframes rainbowMove {
+      /*0% through animation, background position is set at the -500% position*/
+      0% {
+        background-position: -500%;
+      }
+     /*0% through animation, background position is set at the 500% position*/
+      100% {
+        background-position: 500%;
+      }
+    }
+
+    /*defines any new styles that will occur when a is hovered*/
+    a:hover {
+      /*animation speed is set to 5s, slows down*/
+      animation: rainbowMove 5s linear infinite;
+    }
+
+    /*h1 tag style*/
+    h1 {
+
+      font-size: 3em;
+      color: #ffc0cb;
+      font-family: 'Bowlby One SC', cursive;
+      /*shadow behind text, x offset,y offset, color*/
+      text-shadow: 3px 4px blue;
+      text-align: center;
+      /*transform allows for an element to be
+       rotated, scaled, skewed, or translated*/
+      /* stretched vertically by 2  */
+      transform: scaleY(2.0);
+    }
+
+ /* h1 style when hovered over  */
+    h1:hover {
+      /* set to original scale */
+      transform: scaleY(1.0);
+      color: #ff9966;
+
+    }
+/*defines the style of the h2 tag*/
+    h2 {
+      font-size: 6em;
+      color: purple;
+      /*font family */
+      font-family: 'Sigmar One', cursive;
+      text-shadow: 10px 10px white;
+      text-align: center;
+
+    }
+
+    /*defines any new styles that will occur when h2 is hovered*/
+
+    h2:hover {
+      /*font size, family, and font color changed*/
+      font-size: 8em;
+      font-family: 'Bowlby One SC', cursive;
+      color: black;
+
+
+    }
+ /*defines the style of the h3 tag*/
+    h3 {
+      /*font-family */
+      font-family: 'Bowlby One SC', cursive;
+      color: white;
+      text-align: center;
+      font-size: 8em;
+      /* text-shadow effect, glowing shadow from:https://html-css-js.com/css/generator/text-shadow/ */
+      text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    }
+
+/* new styles of h3 when hovered over */
+    h3:hover {
+      /*glowing text shadow effect from:https://html-css-js.com/css/generator/text-shadow/  */
+      text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+
+    }
+ /* defines the style with any text/div with the pStyle class */
+    .pStyle {
+      /* font type */
+      font-family: 'Baloo', cursive;
+      font-size: 5em;
+      text-align: center;
+      color: #d7eaae;
+      text-shadow: 6px 7px limegreen;
+      /* text is rotated to 20 degrees instead of 180, sideways */
+      transform: rotate(20deg);
+    }
+
+/* defines any new styles of any text/div with the pStyle class when it is hovered over */
+    .pStyle:hover {
+      /* rotated to 340 degrees */
+      transform: rotate(340deg);
+    }
+/* defines the style of the */
+    h4 {
+      /*background image is a image from file*/
+      background-image: url("message.png");
+      color: orange;
+      text-shadow: 9px 15px black;
+      font-size: 7em;
+      font-family: 'Sigmar One', cursive;
+      text-align: center;
+      /* background size sets the size of an background image */
+     /*  contain makes the background image fit the entire speicied area and
+     fully visible*/
+      background-size: contain;
+
+    }
+
+    /* defines any new styles that will occur when h4 is hovered */
+
+    h4:hover {
+      text-shadow: 9px 25px white;
+
+    }
+
+/*h5 tag styles */
+    h5 {
+      /*font color  */
+      color: white;
+      /* text shadow, x offset, y offset, color */
+      text-shadow: 5px 7px black;
+      font-size: 6em;
+      /* font family*/
+      font-family: 'Bowlby One SC', cursive;
+      text-align: center;
+
+    }
+
+  /* defines any new styles that will occur when h5 is hovered */
+    h5:hover {
+      /*font color reversed to white */
+      color: black;
+      /* text shadow is reveerse to white */
+      text-shadow: 5px 7px white;
+      font-size: 7em;
+
+    }
+
+/* h6 tag style */
+    h6 {
+      text-align: center;
+      font-family: 'Sigmar One', cursive;
+    }
+    /*defines the .w3-spin class when called, font size set to 8px*/
+    .w3-spin{
+     font-size:8px
+
+    }
+
+    /* CSS STOPS here */
+  </style>
+</head>
+<!-- HTML goes here! -->
+
+<!-- body tag is called, entirety of page contains this -->
+<body>
+  <!-- calls the line 1 class for style -->
+  <div class="line1">
+    <!--p is a tag for a paragraph of text -->
+    <p>But</p>
+    <!-- ending of the line1 class style -->
+  </div>
+  <!-- header 1, header text -->
+  <h1>I know 🧠 </h1>
+  <!-- line break -->
+  <br>
+  <!-- calls w3-spin class from internet style sheet and css (for font size) -->
+  <div class="w3-spin">
+    <h2>Y O U<h2>
+  </div>
+  <!-- end of w3 class style  -->
+  <br>
+  <!-- line break -->
+  <!-- heading 3, header text -->
+  <h3> and </h3>
+  <!-- calls the  pStyle class for style -->
+  <div class="pStyle">
+    <p>I've got</p>
+  </div>
+  <!--  end of pStyle class-->
+  <!-- header tag, header text -->
+  <h4> a message </h4>
+  <!-- header tag, header text -->
+  <h5>to give to</h5>
+  <!-- a href allows for a clickable link, when the user clicks they are redirected  -->
+  <!-- header tag, header text -->
+  <h6> <a href="https://alishapdhir.github.io/web-nyu-idm/here-come-the-planes">you</h6>
+</body>
+<!--end of body  -->
+
+</html>
+<!-- HTML STOPS here! -->
