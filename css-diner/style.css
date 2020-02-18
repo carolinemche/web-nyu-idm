@@ -2,11 +2,17 @@
 /* This is default helpul CSS to include - dont edit this part unless... you want to */
 html,
 body {
+  /* takes default styling of a body and
+  sets it to total 0, ex: something might have style and it
+  might overflow out */
   margin: 0;
   padding: 0;
 }
 
+/* astricks mean every tag */
+/* a good websites should have all of these */
 *, *:before, *:after {
+  /*include the border (if there is one) as the size of everything */
   box-sizing: inherit;
 }
 /* THE END of default helpful basic CSS to include. EDIT the stuff BELOW this line*/
@@ -18,13 +24,57 @@ body {
   font-style: normal;
 }
 
-body {
-  background-color: violet;
-  color: yellow;
+body{
+  font-family: 'Archivo Black', sans-serif;
+  background-color: white;
+  color: black;
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
 }
 
+bottomName{
+  font-family: 'Bebas Neue', cursive;
+  color:white;
+  font-size: 2em;
+
+}
+/*LEVEL 3: selecting an id with a specific id,
+styling the the header with characters as the id*/
+bottomName#first{
+  background-color:red;
+
+}
+/*LEVEL 3: selecting an id with a specific id,
+styling the the header with characters as the id*/
+bottomName#second{
+  background: black;
+
+
+}
+
+.spacing{
+  line-height: 80%;
+}
+header{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size:2em;
+}
+/*LEVEL 3: selecting an id with a specific id,
+styling the the header with characters as the id*/
+header#characters{
+  display: inline-block;
+  background: #ffe033;
+  text-align: left;
+  color: white;
+  text-shadow: 4px 4px 4px #aaa;
+
+}
+
+characterName{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size:1em;
+}
 .my-fun-class {
   width: 40%;
   border: 2px solid forestgreen;
