@@ -69,6 +69,7 @@ styling the the header with characters as the id*/
 header#characters{
   text-align: left;
   background: red;
+  padding: 5px;
   color: white;
   text-shadow: 4px 4px 4px black;
 
@@ -77,9 +78,10 @@ header#characters{
 styling the the header with episodes as the id*/
 header#episodes{
   text-align: left;
+  padding: 5px;
   background: black;
   color: white;
-  text-shadow: 4px 4px 4px black;
+  text-shadow: 4px 4px 4px #aaa;
 
 }
 
@@ -96,9 +98,11 @@ chunk.names *{
     padding: 5px;
 }
 
+/* LEVEL 21: :nth-of-type(A). it selects the specific type depending on the order
+assigned. the second chunk tag is selected and styled */
+chunk:nth-of-type(2){
+  font-size:.7em;
+  text-align:center;
+  line-height: 90%;
 
-
-img {
-  width: 40%;
-  padding: 2em;
 }
