@@ -51,30 +51,33 @@ bottomName#second{
 
 
 }
-
+/* LEVEL 6: the class selector allows for all the elements in a class to be
+selected. all the elements within the spacing class will have a line spacing
+of 80%  */
 .spacing{
   line-height: 80%;
 }
 header{
   font-family: 'Work Sans', sans-serif;
   font-weight: 700;
-  font-size:2em;
+  font-size:1em;
 }
 /*LEVEL 3: selecting an id with a specific id,
 styling the the header with characters as the id*/
 header#characters{
-  display: inline-block;
-  background: #ffe033;
   text-align: left;
+  background: #ffe033;
   color: white;
   text-shadow: 4px 4px 4px #aaa;
 
 }
 
 characterName{
+  text-align:left;
   font-family: 'Didact Gothic', sans-serif;
-  font-size:1em;
+  font-size:.5em;
 }
+
 .my-fun-class {
   width: 40%;
   border: 2px solid forestgreen;
