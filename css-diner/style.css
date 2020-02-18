@@ -17,12 +17,6 @@ body {
 }
 /* THE END of default helpful basic CSS to include. EDIT the stuff BELOW this line*/
 
-@font-face {
-  font-family: 'violet';
-  src: url('./fonts/VioletSans-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
 body{
   font-family: 'Archivo Black', sans-serif;
@@ -104,5 +98,22 @@ chunk:nth-of-type(2){
   font-size:.7em;
   text-align:center;
   line-height: 90%;
+
+}
+/* LEVEL 3*/
+header#songs{
+  text-align: left;
+  padding: 5px;
+  background: red;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+
+}
+/*LEVEL 21  */
+chunk.songs{
+  font-size:.7em;
+  text-align: left;
+  line-height: 90%;
+  padding: 20px;
 
 }
