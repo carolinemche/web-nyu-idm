@@ -36,17 +36,19 @@ bottomName{
   font-family: 'Bebas Neue', cursive;
   color:white;
   font-size: 2em;
+  background: red;
 
 }
-/*LEVEL 3: selecting an id with a specific id.
-styling the bottomName with first as the id*/
-bottomName#first{
-  background-color:red;
+/*LEVEL 15 :  selecting the first child of an element.  the background is
+being set to red*/
+div bottomName:first-child{
+  background: red;
+
 
 }
-/*LEVEL 3: selecting an id with a specific id.
-styling the bottomName with the second as the id*/
-bottomName#second{
+/*LEVEL 17: selecting the last element of an element being used. the last
+bottomName is selected and the background is black */
+div bottomName:last-child{
   background: black;
 
 
@@ -66,24 +68,35 @@ header{
 styling the the header with characters as the id*/
 header#characters{
   text-align: left;
-  background: #ffe033;
+  background: red;
   color: white;
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 4px 4px 4px black;
+
+}
+/*LEVEL 3: selecting an id with a specific id,
+styling the the header with episodes as the id*/
+header#episodes{
+  text-align: left;
+  background: black;
+  color: white;
+  text-shadow: 4px 4px 4px black;
 
 }
 
-characterName{
-  text-align:left;
+chunk{
   font-family: 'Didact Gothic', sans-serif;
-  font-size:.5em;
+  color:black;
+}
+/*LEVEL 11: combining the universal selector with other elements. this chooses
+every element in the chunk class with names as the specific id */
+chunk.names *{
+    font-size:.7em;
+    text-align:left;
+    line-height: 80%;
+    padding: 5px;
 }
 
-.my-fun-class {
-  width: 40%;
-  border: 2px solid forestgreen;
-  display: block;
-  margin: auto;
-}
+
 
 img {
   width: 40%;
