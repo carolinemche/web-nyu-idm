@@ -38,14 +38,14 @@ bottomName{
   font-size: 2em;
 
 }
-/*LEVEL 3: selecting an id with a specific id,
-styling the the header with characters as the id*/
+/*LEVEL 3: selecting an id with a specific id.
+styling the bottomName with first as the id*/
 bottomName#first{
   background-color:red;
 
 }
-/*LEVEL 3: selecting an id with a specific id,
-styling the the header with characters as the id*/
+/*LEVEL 3: selecting an id with a specific id.
+styling the bottomName with the second as the id*/
 bottomName#second{
   background: black;
 
