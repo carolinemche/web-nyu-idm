@@ -1,51 +1,56 @@
-# Object Meditation: My Favorite Blanket
+# Object Meditation: My Mochi Keychain
 
 ### What are 5 words that come to mind when I think of this object
-- home
+- friendship
 - memories
-- comfort
-- sleep
-- travel
+- Japan
+- best friends
+- long lasting
 
 ### Are there special places this object is associated with?
-- this blanket is associated with my home and more specifically my bed because
-that is where the blanket has been the most of my life.
+- this keychain is associated with my two best friends, Arya and Nicole.
 
 ### What does my object look like?
-- my object is a small white blanket.
+- It is a small keychain that is in the shape of a dango (japanese mochi balls).
+There are three orange balls skewered ontop of a stick.
 
 ### Feel like?
-- it feels super soft and satisfying to touch
+- it feels smooth and I think it is made out of wood.
 
 ### Smell like?
-- it smells like laundry detergent
+- it does not have any distinct smell to it
 
 ### Where did you get it?
-- I got it from my parents when I was a baby
+- I got it from my friend Nicole. She got in in Tokyo, Japan while out shopping
+in the Harajuku district.
 
 ### What are the emotions attached to this object for you?
-- emotions that I get from this object is comfort, relaxation, and homesickness
+- emotions that I get from this object are warmth and platonic love
 
 ### Why did you choose it?
-- I choose it because I sleep with it every night and have had it for such a long
-time. It has gone to so many different places with me and since I moved away from
-home for college, this is the closest thing to home and my family. Whenever I feel
-sad or homesick, I can use the blanket to make me feel at home and closer to my family.
+- I choose it because Arya and Nicole were my best friends throughout high school
+and middle school. We were unseparable (and still are) and always do everything
+together. The keychain symbolizes our friendship and the idea of always being
+together, like we are a package deal (three mochis on a stick). We all went to
+separate colleges, but still talk everyday but its not the same. The keychain also
+just simply reminds us of our friendships.
 
 ### Is it one of a kind?
-- My mom had someone hand make this blanket so it is unique.
+- Yes, but we each have one of a different color. I have an orange one, Arya has
+a green one, and Nicole has a pink one.
 
 ### How do you interact with it?
-- I sleep with it or snuggle with it.
+- I hang it on my backpack and use it as an acessory.
 
 ### What are some other objects it does or might have relationships with?
-- The blanket has relations with my bed at home and my stuffed animals at home.
+- The keychain doesnt have any relationships that I can think of.
 
 ### What is a specific memory you have with this object?
-- On the first night of college, I remember missing my home a lot because I
-knew that this was a new chapter of my life away from home and everything familiar.
-The blanket was there to comfort me and helped remind me that I always had a piece
-of home with me and so many memories.
+- One of my most specific memories was when I recieved the object from Nicole about four years ago. It was the first summer where we were all travelling and away from home for most of the summer. We didn't get to see each other for three months and
+because of time zone differences, we didn't talk that much either. We all got
+together and had gifts and souvenirs for each other from the places we travelled
+but the keychain was so special and our favorite because it had so much meaning
+behind it.
 
 
 

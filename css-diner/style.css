@@ -33,7 +33,7 @@ bottomName{
   background: red;
 
 }
-/*LEVEL 15 :  selecting the first child of an element.  the background is
+/*LEVEL 15 :  selecting the first child of an element. the background is
 being set to red*/
 div bottomName:first-child{
   background: red;
