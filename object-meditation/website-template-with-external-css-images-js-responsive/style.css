@@ -17,7 +17,8 @@ body {
 }
 
 .title{
-  text-align:center;
+  display: flex;
+  justify-content: center;
 }
 
 h1{
@@ -31,22 +32,23 @@ h1{
 .mochiimg{
   height: auto;
   width: 70px;
+  margin: 0 auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .homeimg{
-  height: 40%;
-  width: 40%;
-  right: 200px;
+  max-width:60%;
+  max-height:60%;
   position: absolute;
+  right: 200px;
 
 }
 .name-box{
-  padding: 20px;
+  padding: 40px;
   text-align: center;
-  width: 320px;
+  width: 350px;
   height: 70px;
   left: 200px;
   position: absolute;
@@ -63,22 +65,72 @@ name{
 
 .arya{
   background-color:#F7CAC9;
+  /* space between elements */
+  margin: 25px;
+}
+
+/* changes to a lighter color */
+.arya:hover{
+    background-color: #fae0df;
 }
 
 .nicole{
   background-color: #92A8D1;
+  /* space between elements */
+  margin: 25px;
+}
+
+.nicole:hover{
+  background-color: #d3dcec;
+
 }
 
 .caroline{
   background-color:#FFFF84;
+  /* space between elements */
+  margin: 25px;
+}
+
+.caroline:hover{
+  background-color:#ffffbf;
+}
+
+
+.memory-button{
+ margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 
 }
-.my-fun-class {
-  width: 50%;
-  border: 2px solid limegreen;
-  display: block;
-  margin: auto;
+
+name#memory{
+  font-size: 3em;
 }
+
+
+div#container{
+margin-top: 10px;
+}
+
+.aryaimg{
+  margin-top: 50px;
+  transform: rotate(90deg);
+  width:30%;
+  height:30%;
+  float:right;
+}
+
+about{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 1em;
+
+}
+
+
 
 @media only screen and (max-width: 600px) {
   body {
