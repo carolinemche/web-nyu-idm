@@ -1,1 +1,13 @@
-console.log("I'm here, I'm here!!")
+$(document).ready(function() {
+
+  $("#mochiimg").click(function() {
+    $("body").css({
+      "background-color": "black"
+    });
+
+  });
+
+
+
+
+});

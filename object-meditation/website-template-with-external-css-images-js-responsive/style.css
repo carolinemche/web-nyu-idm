@@ -28,9 +28,9 @@ h1{
   color:black;
   margin-bottom: -5px;
 
+}
 
-
-.mochiimg{
+#mochiimg{
   height: auto;
   width: 70px;
   display: block;
@@ -106,10 +106,8 @@ name{
 .memory-button{
   display: flex;
   justify-content:center;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 15px;
-
-
 }
 
 #memory-style{
@@ -121,20 +119,8 @@ name{
   letter-spacing: 8px;
 }
 
-.aryaimg{
-  margin-top: 50px;
-  transform: rotate(90deg);
-  width:30%;
-  height:30%;
-  float:right;
-}
-
-about{
-  margin-left: 20px;
-  margin-right: 20px;
-  font-family: 'Poppins', sans-serif;
-  color: black;
-  font-size: 1em;
+#memory-style:hover{
+  background-color: #b4ffb2;
 
 }
 
