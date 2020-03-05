@@ -26,32 +26,39 @@ h1{
   font-size: 4em;
   font-weight: 800;
   color:black;
+  margin-bottom: -5px;
 
-}
+
 
 .mochiimg{
   height: auto;
   width: 70px;
-  margin: 0 auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .homeimg{
-  max-width:60%;
-  max-height:60%;
-  position: absolute;
-  right: 200px;
+  height: 35%;
+  width: 35%;
+  justify-content: flex-end;
+  margin: 0 10%;
+
+
+}
+#flex-box-home{
+  margin-top: -10px;
+  margin-left: 200px;
+  display: flex;
+
 
 }
 .name-box{
-  padding: 40px;
+  padding:40px;
   text-align: center;
   width: 350px;
   height: 70px;
-  left: 200px;
-  position: absolute;
+  justify-content: flex-start;
 }
 
 name{
@@ -97,20 +104,21 @@ name{
 
 
 .memory-button{
- margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+  display: flex;
+  justify-content:center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
 
 }
 
-name#memory{
-  font-size: 3em;
-}
-
-
-div#container{
-margin-top: 10px;
+#memory-style{
+  width: 400px;
+  height: 50px;
+  text-align:center;
+  background-color:#8be28b;
+  font-size: 2em;
+  letter-spacing: 8px;
 }
 
 .aryaimg{
