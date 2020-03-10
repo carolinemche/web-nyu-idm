@@ -23,7 +23,7 @@ body {
 
 h1{
   font-family: 'Poppins', sans-serif;
-  font-size: 4em;
+  font-size: 56px;
   font-weight: 800;
   color:black;
   margin-bottom: -5px;
@@ -104,8 +104,10 @@ name{
 
 
 .memory-button{
+  position: relative;
   display: flex;
   justify-content:center;
+  align-items: flex-end;
   margin-top: 20px;
   margin-bottom: 15px;
 }
@@ -128,6 +130,11 @@ name{
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: white;
+  }
+
+  .name-box{
+    display: flex;
+    flex-direction: column;
   }
 }

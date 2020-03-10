@@ -1,14 +1,10 @@
-.aryaimg{
-  margin-top: 20px;
-  width:28%;
-  height:28%;
-  justify-content: flex-start;
-  margin-left: -10px;
-}
 
 #about-home{
+  position: absolute;
   margin-top: -10px;
   margin-left: 200px;
+  margin-right: 100px;
+  margin-bottom: 40px;
   display: flex;
 }
 
@@ -20,13 +16,108 @@ about{
 
 }
 
-.pink-box{
-  background-color:#F7CAC9;
+.aryaimg{
+  margin-top: 20px;
+  width:28%;
+  height:28%;
+  justify-content: flex-start;
+  margin-left: -20px;
+}
+
+.nicoleimg{
+  margin-top: 20px;
+  width:32%;
+  height:32%;
+  justify-content: flex-start;
+  margin-left: -20px;
+}
+
+.carolineimg{
+  margin-top: 90px;
+  width:45%;
+  height:45%;
+  transform: rotate(90deg);
+  justify-content: flex-start;
+  margin-left: -80px;
+}
+
+.arya-pink-box{
+  background-color: #F7CAC9;
   justify-content: flex-end;
   padding: 10px;
   margin-left: 40px;
-  margin-top: 50px;
+  margin-right: 60px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
+
+.arya-blue-box{
+  background-color: #d3dcec;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 60px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.nicole-blue-box{
+  background-color: #d3dcec;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 60px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+
+.nicole-yellow-box{
+  background-color: #FFFF84;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 60px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.caroline-yellow-box{
+  background-color: #FFFF84;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-left: -40px;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.caroline-yellow-box{
+  background-color: #FFFF84;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-left: -40px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+.caroline-pink-box{
+  background-color:#F7CAC9;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-left: -40px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
 
 ul {
   margin-top: -2px;
