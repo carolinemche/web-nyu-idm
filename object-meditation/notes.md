@@ -3,9 +3,9 @@
 ### What are 5 words that come to mind when I think of this object
 - friendship
 - memories
-- Japan
+- mochi
 - best friends
-- long lasting
+- Simba
 
 ### Are there special places this object is associated with?
 - this keychain is associated with my two best friends, Arya and Nicole.
