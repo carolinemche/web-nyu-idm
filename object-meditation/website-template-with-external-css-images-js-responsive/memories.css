@@ -1,5 +1,5 @@
-div.gallery {
 
+div.gallery {
   border: 2px solid #ccc;
 }
 
@@ -8,8 +8,6 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  display:flex;
-  justify-content: center;
   width: 100%;
   height: auto;
 }
@@ -35,16 +33,94 @@ div.gallery:hover div.desc {
   box-sizing: border-box;
 }
 
+.ipad{
+  display:none;
+}
+
+.iphoneX{
+  display:none;
+}
+
+.mobileTitle{
+  display: none
+}
+
+/* ipad display responsive */
+@media only screen and (max-width : 768px) and (max-height : 1024px) {
+  .ipad{
+    display: block;
+  }
+  .iphone{
+    display:none;
+  }
+  .mobileTitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    color:black;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+/* margin fix */
+  .responsive{
+    margin-right: 100px;
+  }
+}
 
 
+
+
+/* w3 schools responsive image gallery https://www.w3schools.com/css/css_image_gallery.asp */
 .responsive {
-  margin-left:87px;
+  margin-left:89px;
   margin-top: 10px;
   padding: 0 6px;
   float: left;
   width: 24.99999%;
 }
 
+/* margin placement fix for iphone x */
+@media only screen and (max-width : 375px)  and (max-height : 812px) {
+  div.gallery img {
+    margin-left:80px;
+    width: 100%;
+    height: auto;
+  }
+
+  .mobileTitle{
+    text-align:center;
+    font-size: 36px;
+  }
+
+}
+/* photo placement fix for iphone 6/7/8 plus */
+@media only screen and (max-width : 414px)  and (max-height : 736px) {
+  /* div.gallery img {
+    margin-left:100px;
+    width: 100%;
+    height: auto;
+  } */
+  .mobileTitle{
+    font-size: 30px;
+  }
+
+}
+
+/* photo placement fix for iphone 6/7/8  */
+@media only screen and (max-width : 375px)  and (max-height : 736px) {
+  div.gallery img {
+    margin-left:80px;
+    width: 100%;
+    height: auto;
+  }
+  .mobileTitle{
+    font-size: 26px;
+  }
+
+}
+/* w3 schools tutorial */
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
@@ -56,4 +132,6 @@ div.gallery:hover div.desc {
   .responsive {
     width: 100%;
   }
+
+
 }

@@ -8,29 +8,56 @@ body {
   box-sizing: inherit;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
 body {
   background-color: white;
 }
 
-.title{
+/* christmas backgrounds */
+.hide {
+  background-color: #91f78f;
+}
+
+.hide2 {
+  background-image: url("assets/snow.jpg");
+  /*fit to screen  */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hide3 {
+  background-color: #d94c4c;
+}
+
+.title {
   display: flex;
   justify-content: center;
 }
 
-h1{
+h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 56px;
   font-weight: 800;
-  color:black;
+  color: black;
   margin-bottom: -5px;
-
 }
 
-#mochiimg{
+#backgroundButton {
+  margin: 0;
+  position: fixed;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  background-color: #F7CAC9;
+}
+
+#mochiimg {
   height: auto;
   width: 70px;
   display: block;
@@ -38,30 +65,36 @@ h1{
   margin-right: auto;
 }
 
-.homeimg{
+.homeimg {
   height: 35%;
   width: 35%;
   justify-content: flex-end;
   margin: 0 10%;
-
-
 }
-#flex-box-home{
+
+.homeimg2 {
+  height: 35%;
+  width: 35%;
+  justify-content: flex-end;
+  margin: 0 10%;
+  box-shadow: 25px 25px 2px #8be28b;
+}
+
+#flex-box-home {
   margin-top: -10px;
   margin-left: 200px;
   display: flex;
-
-
 }
-.name-box{
-  padding:40px;
+
+.name-box {
+  padding: 40px;
   text-align: center;
   width: 350px;
   height: 70px;
   justify-content: flex-start;
 }
 
-name{
+name {
   font-family: 'Poppins', sans-serif;
   color: white;
   text-shadow: 2px 2px 4px #000000;
@@ -70,71 +103,282 @@ name{
   letter-spacing: 4px;
 }
 
-.arya{
-  background-color:#F7CAC9;
+.arya {
+  background-color: #F7CAC9;
   /* space between elements */
   margin: 25px;
 }
 
 /* changes to a lighter color */
-.arya:hover{
-    background-color: #fae0df;
+.arya:hover {
+  background-color: #fae0df;
 }
 
-.nicole{
+.nicole {
   background-color: #92A8D1;
   /* space between elements */
   margin: 25px;
 }
 
-.nicole:hover{
+.nicole:hover {
   background-color: #d3dcec;
-
 }
 
-.caroline{
-  background-color:#FFFF84;
+.caroline {
+  background-color: #FFFF84;
   /* space between elements */
   margin: 25px;
 }
 
-.caroline:hover{
-  background-color:#ffffbf;
+.caroline:hover {
+  background-color: #ffffbf;
 }
 
-
-.memory-button{
+.memory-button {
   position: relative;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: flex-end;
   margin-top: 20px;
   margin-bottom: 15px;
 }
 
-#memory-style{
+#memory-style {
   width: 400px;
   height: 50px;
-  text-align:center;
-  background-color:#8be28b;
+  text-align: center;
+  background-color: #8be28b;
   font-size: 2em;
   letter-spacing: 8px;
 }
 
-#memory-style:hover{
+#memory-style:hover {
   background-color: #b4ffb2;
-
 }
 
+.ipad {
+  display: none;
+}
 
+.iphoneX {
+  display: none;
+}
 
-@media only screen and (max-width: 600px) {
+.iphone678{
+  display:none;
+}
+.iphone678plus{
+  display:none;
+}
+/* ipad display */
+@media only screen and (max-width : 768px) and (max-height : 1024px) {
   body {
     background-color: white;
   }
 
-  .name-box{
+  h1,
+  #backgroundButton,
+  #mochiimg,
+  .homeimg,
+  .arya,
+  .nicole,
+  .caroline,
+  .memory-button,
+  #memoryStyle,
+  .name-box,
+  .iphoneX, .iphone678plus, .iphone678{
+    display: none;
+  }
+
+  .ipad {
+    display: block;
+  }
+
+  .buttonToggle {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    /* center the button */
+    display: flex;
+    justify-content: center;
+    background-color: #F7CAC9;
+  }
+
+  .memory {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    /* center the button */
+    display: flex;
+    justify-content: center;
+    background-color: #8be28b;
+  }
+
+  #story {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: none;
+  }
+}
+/* ipad resizing closing */
+
+/* iPhone X display*/
+@media only screen and (max-width : 375px) and (max-height : 812px) {
+  body {
+    background-color: white;
+  }
+
+  h1,
+  #backgroundButton,
+  #mochiimg,
+  .homeimg,
+  .arya,
+  .nicole,
+  .caroline,
+  .memory-button,
+  #memoryStyle,
+  .name-box,
+  .ipad, .iphone678plus, .iphone678 {
+    display: none;
+  }
+
+  .iphoneX {
+    display: block;
+  }
+
+  /* button style that links to object meditation notes  */
+  .objectNotes {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    /* center the button */
+    display: flex;
+    justify-content: center;
+    background-color: #92A8D1;
+    margin-bottom: 20px;
+  }
+
+  #imgCol1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: inline-block;
+  }
+
+  img {
+    margin: 20px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+}
+/* iPhone X display closing */
+
+/* iPhone 6/7/8plus display*/
+@media only screen and (max-width : 414px) and (max-height : 736px) {
+  body {
+    background-color: white;
+  }
+
+  h1,
+  #backgroundButton,
+  #mochiimg,
+  .homeimg,
+  .arya,
+  .nicole,
+  .caroline,
+  .memory-button,
+  #memoryStyle,
+  .name-box,
+  .ipad, .iphonex, .iphone678{
+    display: none;
+  }
+
+  .iphone678plus{
+
+    display: block;
+  }
+
+    #imgCol2 {
+      margin: 0 auto;
+      width: 200px;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .imgCircle{
+      border-radius: 100px;
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
+/* iPhone 6/7/8plus display closing */
+
+/*same as iphone 6/7/8 plus*/
+/* iPhone 6/7/8 display*/
+@media only screen and (max-width : 375px) and (max-height : 667px) {
+  body {
+    background-color: white;
+  }
+
+  h1,
+  #backgroundButton,
+  #mochiimg,
+  .homeimg,
+  .arya,
+  .nicole,
+  .caroline,
+  .memory-button,
+  #memoryStyle,
+  .name-box,
+  .ipad, .iphoneX, .iphone678plus{
+    display: none;
+  }
+
+  .iphone678{
+    display: block;
+  }
+
+
+  #imgCol2 {
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
   }
+
+  .imgCircle{
+    border-radius: 100px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  /*  iphone 6/7/8 closing*/
+}
+
+
+
 }
