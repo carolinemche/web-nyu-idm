@@ -33,3 +33,14 @@ body {
 #listNames {
   color: red;
 }
+.colorChallenge{
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+
+}
+/* https://w3bits.com/rainbow-text/ */
+#colors{
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
